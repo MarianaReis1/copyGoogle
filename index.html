@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CopyGoogle</title>
     <link rel="stylesheet" href="styles.css">
+    <title>CopyGoogle</title>
+    
 </head>
 <body>
-    
+    <div id="firstList">
+        <ul>
+            <li id="signIn"><a>Sign In</a></li>
+            <li><a><img src="./img/appIcon.png" alt="" id="appsIcon"></a></li>
+            <li><a>Images</a></li>
+            <li><a>Gmail</a></li>
+        </ul>
+    </div>
+    <div id="mainlogo">
+        <img src="./img/google.png" alt="">
+    </div>
+    <form id="form" action="">
+            <div id="searchBox">
+                <img id="searchIcon" src="./img/search.png" alt="searchIcon" >
+                <input type="text" size="200" name="searchBox" >
+            </div>      
+            <div id="buttons">
+                <input type="button" value="Google Search" name="searchButton" id="searchButton">
+                <input type="button" value="I'm Felling Lucky" name="luckyButton" id="luckyButton">
+            </div>
+    </form>
+<script src="app.js"></script>
 </body>
 </html>

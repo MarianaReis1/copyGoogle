@@ -1,6 +1,6 @@
 # copyGoogle
 
-CopyGoogle, as the name says, it is a simple WebPage built styled CSS.
+CopyGoogle, as the name says, it is a simple WebPage styled CSS.
 
 ## Motivation
 
